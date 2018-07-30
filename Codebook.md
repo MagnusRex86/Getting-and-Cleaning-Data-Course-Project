@@ -1,4 +1,4 @@
-1CODEBOOK
+CODEBOOK
 ==================================================================
 
 Human Activity Recognition Using Smartphones Dataset
