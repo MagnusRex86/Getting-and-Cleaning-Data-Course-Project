@@ -20,3 +20,14 @@ You should create one R script called run_analysis.R that does the following.
 * Run "run_analysis.R"
 * Output is "tidy.txt"
 * Code book is "Codebook.md"
+
+What the run_analysis.R file does:
+==================================
+- The file calls the reshape2 library and sets the working directory.
+- Download and unzips the dataset
+- Load acitivity labels and features
+- Extracts on the mean and standard deviation features
+- Read files into objects
+- Creates teh data frames, then merges teh data frames.
+- Then stores the acitivty and subjects as factors before melting the data frame.
+- The output is a table written to file named "tidy.txt"
